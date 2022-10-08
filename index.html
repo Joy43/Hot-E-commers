@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+
+
+
+</head>
+
+<body>
+
+    <!-- Nab bar -->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#subscribe">subscribe</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Product
+                </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#Laptop">Laptop</a></li>
+                                <li><a class="dropdown-item" href="#phone">Phone</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#categories">categories</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- banner start -->
+
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide orange-bg" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <h1 style="color:#FF5898 ;"> Laptop</h1>
+                            <p>Processor: Intel Pentium Silver N5030 (4M Cache, 1.10 GHz up to 3.10 GHz) RAM: 4GB DDR4, Storage: 1 TB SATA HDD Display: 15.6" HD (1366 x 768) Features: Dual speakers, Type-C</p>
+                            <div class="price">
+                                <h1>1000$</h1>
+                            </div>
+                            <button class="buy-now">Buy now</button>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="banner-products/product-1.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <h1 style="color:#FF5898 ;">sound box</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quos perspiciatis quidem impedit eligendi optio praesentium at consequuntur. Sit, voluptate.</p>
+                            <div class="price">
+                                <h1>200$</h1>
+                            </div>
+                            <button class="buy-now">Buy now</button>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="./banner-products/slider-1.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+
+                    <div class="row">
+                        <div class="col-md-7">
+                            <h1 style="color:#FF5898 ;">sound system</h1>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam doloribus quo eaque unde eligendi veniam laborum qui fugiat earum cumque?</p>
+                            <div class="price">
+                                <h1>1200$</h1>
+                            </div>
+                            <button class="buy-now">Buy now</button>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="./banner-products/slider-3.png" class="d-block w-100" alt="...">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+
+    </div>
+
+    <!-- catagorise-->
+
+    <div class="container categories" id="categories">
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="d-flex justify-content-between align-items-center cat1">
+                    <h1>gas</h1>
+                    <img src="./Categories/perfume.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-4">
+
+                <div class="d-flex justify-content-between align-items-center cat2">
+                    <h1>Bag</h1>
+                    <img src="Categories/bag.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="d-flex justify-content-between  align-items-center cat3">
+                    <h1>shoes</h1>
+                    <img src="./Categories/shoes.png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- phone -->
+
+
+    <div class="container iphone" id="phone">
+        <h3>phone stores</h3>
+
+        <div class="card-group">
+            <div class="card">
+                <img src="./phone/phone-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">iphone 14 pro</h5>
+                    <p class="card-text">Dimensions 147.5 x 71.5 x 7.9 mm (5.81 x 2.81 x 0.31 in) Weight 206 g (7.27 oz) Build Glass front (Corning-made glass), glass back (Corning-made glass), stainless steel frame SIM Dual SIM (Nano-SIM and eSIM) or Dual eSIM - International
+                        Dual eSIM with multiple numbers - USA Dual SIM (Nano-SIM, dual stand-by) - China IP68 dust/water resistant (up to 6m for 30 mins) Apple Pay (Visa, MasterCard, AMEX certified).</p>
+
+                    <h5>1100$</h5>
+                    <button class="buy-now">Buy now>></button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./phone/phone-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">redmi note 11 pro</h5>
+                    <p class="card-text">First Release February 9, 2022 Colors Graphite Gray, Pearl White, Star Blue Connectivity Network 2G, 3G, 4G SIM Dual Nano SIM WLAN ✅ dual-band, Wi-Fi direct, Wi-Fi hotspot Bluetooth ✅ v5.0, A2DP, LE GPS ✅ A-GPS, GLONASS, BDS, GALILEO
+                        Radio ✅ FM USB v2.0 OTG ✅ USB Type-C ✅ NFC ✅ (Market dependent) Infrared ✅ Body Style Punch-hole Material Gorilla Glass 3 front, plastic
+                    </p>
+
+                    <h5>500$</h5>
+                    <button class="buy-now">Buy now>></button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./phone/phone-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">sumsung</h5>
+                    <p class="card-text">The era of planning looks around your phone is over. Small but mighty when folded, Galaxy Z Flip4 is a compact full-sized smartphone, and just the right size to slip in a pocket when it's time to slay.2 *Image simulated for illustrative
+                        purposes. Actual UI may be different..</p>
+
+                    <h5>300$</h5>
+                    <button class="buy-now">Buy now>></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- laptop -->
+
+    <div class="container Laptop" id="Laptop">
+        <h3>Laptop store</h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="./laptop/product-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">HP 10 GEN</h5>
+                        <p class="card-text">Processor: Intel Pentium Silver N5030 (4M Cache, 1.10 GHz up to 3.10 GHz) RAM: 4GB DDR4, Storage: 1 TB SATA HDD Display: 15.6" HD (1366 x 768) Features: Dual speakers, Type-C</p>
+
+                        <h5>$700</h5>
+                        <button class="buy-now">Buy now>></button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="./laptop/product-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">MacBook air</h5>
+                        <p class="card-text">Trade-in values will vary based on the condition, year, and configuration of your eligible trade-in device. Not all devices are eligible for credit. You must be at least 18 years old to be eligible to trade in for credit or for
+                            an Apple Gift Card. </p>
+                        <h5>$1200</h5>
+                        <button class="buy-now">Buy now>></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="./laptop/product-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">DELL CORE i8</h5>
+                        <p class="card-text">.Get the Best Deal at Dell with Financing.^ Up to 12 months special financing with min. purchase^ 3% back in Dell Rewards* $50 Bonus Dell Rewards* for new accounts</p>
+                        <h5>$1000</h5>
+                        <button class="buy-now">Buy now>></button>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <!-- spaning -->
+
+    <div class="spinner-grow text-primary" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+    <div class="spinner-grow text-secondary" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+    <div class="spinner-grow text-success" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+    <div class="spinner-grow text-danger" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+    <div class="spinner-grow text-warning" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+    <div class="spinner-grow text-info" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+    <div class="spinner-grow text-light" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+    <div class="spinner-grow text-dark" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+    <!-- JavaScript add -->
+
+    <div class="container d-flex justify-content-center orange-bg" id="subscribe">
+
+        <div>
+            <h3>Let's Stay IN Touch</h3>
+            <h6>GET UPDATE ON SALES FOR SPEACIAL OFFER</h6>
+            <input class="form-control" type="text" value="email here" />
+            <button class="buy-now">SUBMIT</button>
+        </div>
+    </div>
+    <footer>
+        <p style="color:rgb(242, 254, 19);background-color: black;">
+            ©copyright by "shahsultan islam joy" in 2022
+        </p>
+        <!-- JavaScript add -->
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+
+        <script src="index.js"></script>
+</body>
+
+</html>
