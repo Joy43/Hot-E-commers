@@ -1,6 +1,12 @@
 .container {
     margin-bottom: 100px;
 }
+p {
+    padding: 10px;
+}
+h1 {
+    padding: 8px;
+}
 
 .orange-bg {
     background-color: #fceae8;
